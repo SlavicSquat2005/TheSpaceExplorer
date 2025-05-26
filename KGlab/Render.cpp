@@ -12,6 +12,8 @@
 #include <algorithm>
 #include "glext.h"
 #define DigitTextureId(value) TexId_digit_##value
+#include <mmsystem.h>
+#pragma comment(lib, "winmm.lib")
 
 float animationTime = 0.0f;
 std::vector<float> Times{ 23.5, 33.0, 44.5, 53.0, 64.5, 73.0, 83.5, 91.0, 99.0, 108.0, 118.5, 126.0, 133.0, 143.0, 150.0, 157.0, 164.5, 173.0, 181.0, 189.5, 196.5, 205.0, 213.0, 220.5, 228.5, 237.0, 245.0, 252.5, 260.5, 268.5, 277.0, 285.0, 293.0, 301.0 };
@@ -48,6 +50,7 @@ bool staticGame = true;
 bool texturing = true;
 bool lightning = true;
 bool alpha = false;
+bool musicOn = true;
 
 
 void InitializeCubes()
@@ -69,22 +72,52 @@ void handleKeyPress(OpenGL* sender, KeyEventArg arg)
     if (inMenu)
     {
         if (arg.key == '1')
-        { 
+        {
             inMenu = false;
             gameStarted = true;
             InitializeCubes();
             animationTime = 0.0f;
+            if(musicOn)
+                PlaySound(TEXT("BackgroundMusic.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
         }
-        else if (arg.key == '2')
-        { 
+        else if (arg.key == 'M')
+        {
+            if (musicOn)
+            {
+                musicOn = false;
+                PlaySound(NULL, NULL, 0);
+            }
+            else
+            {
+                musicOn = true;
+                PlaySound(TEXT("MenuMusic.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+            }
         }
     }
-    else if (gameStarted && arg.key == '2')
+    else 
     {
-        timeIndex = 0;
-        inMenu = true;
-        gameStarted = false;
-        cubes.clear();//Очистка
+        if (gameStarted && arg.key == '2')
+        {
+            timeIndex = 0;
+            inMenu = true;
+            gameStarted = false;
+            cubes.clear();//Очистка
+            if (musicOn)
+                PlaySound(TEXT("MenuMusic.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+        }
+        else if (gameStarted && arg.key == 'M')
+        {
+            if (musicOn)
+            {
+                musicOn = false;
+                PlaySound(NULL, NULL, 0);
+            }
+            else
+            {
+                musicOn = true;
+                PlaySound(TEXT("BackgroundMusic.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+            }
+        }
     }
 }
 
@@ -124,6 +157,8 @@ GuiTextRectangle text;
 
 void initScore(int x, int y, int n, unsigned char* data)
 {
+    PlaySound(TEXT("MenuMusic.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+
     glGenTextures(1, &scoreTexId);
     glBindTexture(GL_TEXTURE_2D, scoreTexId);
     data = stbi_load("score.png", &x, &y, &n, 4);
@@ -509,7 +544,7 @@ void initRender()
     glGenTextures(1, &texId);
     glBindTexture(GL_TEXTURE_2D, texId);
     data = stbi_load("MainMenu.png", &x, &y, &n, 4);
-    if (data) 
+    if (data)
     {
         unsigned char* _tmp = new unsigned char[x * 4];
         for (int i = 0; i < y / 2; ++i)
@@ -1123,7 +1158,7 @@ void Render(double delta_time)
     if (cubes.empty())
     {
         InitializeCubes();
-        return; 
+        return;
     }
 
     //Обновление размеров всех кубов

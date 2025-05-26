@@ -1,2 +1,48 @@
-﻿  LINK : отсутствует база данных D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\x64\Debug\KGlab.pdb программы; выполняется полная компоновка
+﻿  Render.cpp
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\glext.h(37,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "Render.cpp")
+  
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(927,20): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(929,26): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(929,20): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(931,26): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(931,20): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(933,20): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(959,20): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(961,26): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(961,20): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(963,26): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(963,20): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(965,20): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(992,25): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(994,26): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(994,20): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(996,20): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1069,21): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1071,21): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1071,16): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1073,16): warning C4305: аргумент: усечение из "double" в "GLfloat"
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1156,22): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1171,56): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1172,56): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1173,56): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1174,56): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1175,56): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1310,28): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1323,41): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1323,41): warning C4244:         with
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1323,41): warning C4244:         [
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1323,41): warning C4244:             _Ty=float
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1323,41): warning C4244:         ]
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1324,37): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1324,37): warning C4244:         with
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1324,37): warning C4244:         [
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1324,37): warning C4244:             _Ty=float
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1324,37): warning C4244:         ]
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1325,42): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1335,61): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1335,61): warning C4244:         with
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1335,61): warning C4244:         [
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1335,61): warning C4244:             _Ty=float
+D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\KGlab\Render.cpp(1335,61): warning C4244:         ]
   KGlab.vcxproj -> D:\Разное\СТАНКИН 2 курс\2 семестр\Комп. графика\KGlabs-master\Курсач\The Space Explorer\x64\Debug\KGlab.exe
