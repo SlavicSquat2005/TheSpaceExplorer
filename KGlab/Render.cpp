@@ -32,8 +32,8 @@ struct Cube
     float axis_Z = 1.0f;
 };
 
-const float RESET_SCALE = 0.00390625f;//Новый размер после отката
-const float TARGET_SCALE = 10.0f;//Размер для отката
+const float RESET_SCALE = 0.00390625f; //Новый размер после отката
+const float TARGET_SCALE = 10.0f; //Размер для отката
 int global_step = 10;
 
 float scaleSpeed = 0.2f;
