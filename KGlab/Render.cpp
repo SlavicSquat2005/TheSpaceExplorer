@@ -77,7 +77,7 @@ void handleKeyPress(OpenGL* sender, KeyEventArg arg)
             gameStarted = true;
             InitializeCubes();
             animationTime = 0.0f;
-            if(musicOn)
+            if (musicOn)
                 PlaySound(TEXT("BackgroundMusic.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
         }
         else if (arg.key == 'M')
@@ -94,7 +94,7 @@ void handleKeyPress(OpenGL* sender, KeyEventArg arg)
             }
         }
     }
-    else 
+    else
     {
         if (gameStarted && arg.key == '2')
         {
